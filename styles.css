@@ -1,1 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#skills .skill {
+    margin-bottom: 1rem;
+}
+
+#skills .skill-bar {
+    background: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#skills .skill-level {
+    height: 20px;
+    background: #4caf50;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
 

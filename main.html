@@ -3,48 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Profile Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>My Profile</h1>
-    </header>
-    <section id="name">
-        <h2>Name</h2>
-        <p>Your Full Name</p>
-    </section>
-    <section id="email">
-        <h2>Email</h2>
-        <p>your.email@example.com</p>
-    </section>
-    <section id="profile">
-        <h2>Profile</h2>
-        <p>Profile you are applying for</p>
-    </section>
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>A brief description of yourself.</p>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skill">
-            <span><i class="fas fa-code"></i> HTML</span>
-            <div class="skill-bar">
-                <div class="skill-level" style="width: 90%;"></div>
+    <div class="container">
+        <section id="name">
+            <h2>Name</h2>
+            <p>Your Full Name</p>
+        </section>
+        
+        <section id="email">
+            <h2>Email</h2>
+            <p>your.email@example.com</p>
+        </section>
+        
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>Position you're applying for</p>
+        </section>
+        
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>A brief description of yourself. Mention your background, interests, and career goals.</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <i class="fas fa-code"></i> HTML
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
             </div>
-        </div>
-        <div class="skill">
-            <span><i class="fab fa-css3-alt"></i> CSS</span>
-            <div class="skill-bar">
-                <div class="skill-level" style="width: 80%;"></div>
+            <div class="skill">
+                <i class="fas fa-paint-brush"></i> CSS
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
             </div>
-        </div>
-        <!-- Add more skills as needed -->
-    </section>
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
+            <div class="skill">
+                <i class="fas fa-database"></i> JavaScript
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
